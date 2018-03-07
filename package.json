@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.104",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "ts": "0.0.0",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
