@@ -1,8 +1,6 @@
 `Type Inference`
 
-const myPromise = new Promise((resolve, reject) => resolve())
-  // .then(() => `yay`)
-  // .catch;
+const delay = new Promise(resolve => setTimeout(resolve, 100))
 
-const inputs = document.getElementsByTagName('input');
-// inputs[0].value
+// const inputs = document.getElementsByTagName('input');
+// inputs[0]

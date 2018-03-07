@@ -1,4 +1,4 @@
-`Custom Types`
+`Custom types and interfaces`
 
 type IAddress = {
   street: string,
@@ -6,11 +6,11 @@ type IAddress = {
   builtAt: Date,
 }
 
-const address: IAddress = {
-  zipcode: 1,
-  street: "Ibn Gavirol",
-  builtAt: new Date('1988')
-}
+// const address: IAddress = {
+//   zipcode: 1,
+//   street: "Ibn Gavirol",
+//   builtAt: new Date('1988')
+// }
 
 // interface withAddress {
 //   address: Address,
