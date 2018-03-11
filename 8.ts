@@ -17,16 +17,16 @@ Logger.echo(1, 2, 3);
 // calling a deprecated method
 // 1 2 3
 
-// + `Namespaces (Modules)`
++ `Namespaces (Modules)`
 
-// namespace Validation {
-//   export class ZipCodeValidator {
-//     constructor(public zip: number) {}
+namespace Validation {
+  export class ZipCodeValidator {
+    constructor(public zip: number) {}
 
-//     isAcceptable(s: string) {
-//       return this.zip <= 9999999 && this.zip >= 10000;
-//     }
-//   }
-// }
+    isAcceptable(s: string) {
+      return this.zip <= 9999999 && this.zip >= 10000;
+    }
+  }
+}
 
-// Validation.ZipCodeValidator
+Validation.ZipCodeValidator

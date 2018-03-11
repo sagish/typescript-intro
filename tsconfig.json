@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES2018",
     "module": "commonjs",
     // "noImplicitAny": true,
     "strictNullChecks": true,
@@ -12,5 +12,6 @@
   },
   "files": [
     "./d.ts",
+    "./8.ts",
   ]
 }
